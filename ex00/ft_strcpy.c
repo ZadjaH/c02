@@ -6,7 +6,7 @@
 /*   By: calcifer <calcifer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 14:23:49 by calcifer          #+#    #+#             */
-/*   Updated: 2024/03/24 16:26:49 by calcifer         ###   ########.fr       */
+/*   Updated: 2024/03/24 16:56:24 by calcifer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ char	*ft_strcpy(char *dest, char *src)
 		i++;
 	}
 	dest[i] = '\0';
+	return (dest);
 }
 
 /*
